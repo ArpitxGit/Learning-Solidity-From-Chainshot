@@ -47,6 +47,8 @@ The compiler will raise a *"TypeError: Type int_const 10 is not implicitly conve
 
 # an exception raised at compile time is called a *compile-time exception*:-
 
-This means that the compiler was unable to generate *bytecode* from the program, so we would not even be able to deploy this contract!
-This is opposed to a run-time exception which would happen when someone tried to interact with a contract on the blockchain in some expected way. The exception would occur when a miner tries to validate the transaction. Unless the exception is caught, the transaction will fail and the miner will consume all the gas. 
+This means that the compiler was unable to generate *bytecode* from the program, so we would not even be able to *deploy this contract!*
 
+# this is opposed to a *run-time exception*:-
+Which would happen when someone tried to interact with a contract on the blockchain in some expected way. 
+The exception would occur when a miner tries to validate the transaction. Unless the exception is caught, the transaction will fail and the miner will consume all the gas. 
