@@ -1,0 +1,39 @@
+# An unsigned integer is an integer that has no sign. 
+
+To determine if the number is above or below zero we use the sign: + or - .
+
+Solidity has a specific data type for unsigned integers called uint.
+
+A uint can be suffixed with the number of bits reserved for it.
+
+For instance uint8 means that there are eight bits provided for the value of the variable.
+
+## What is the range of unsigned integers in eight bits? 
+
+=>Eight bits can range from 00000000 to 11111111. This range can represent 256 unique values.
+
+Since the range of unsigned integer values does not include negative numbers, it is simply 0 to 255.
+
+In decimal the unisgned value of 00000000 is 0 and the value of 11111111 is 255.
+
+## When adding integers together in Solidity it's possible to get a result that cannot be stored in the number of bits reserved for that data type. 
+
+=> 
+uint8 a = 128;
+uint8 b = 128;
+
+uint8 c = a + b; // ?
+
+From the discussion in task, we know the range of a uint8 is 0 to 255.
+
+The result of a + b in the above code should be 256. However, a uint8 cannot store a number this large.
+
+## The value 0 is stored in c!
+
+### This is what is called integer overflow.
+
+The value of c actually wraps around its range at this point and becomes 0!
+
+### It's perfectly valid to add a uint8 and a uint16 and store them in a uint256.
+
+ You can use uint256 or uint to declare the sum. The keyword uint is an alias for uint256 and it is often used!
