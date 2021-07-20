@@ -1,0 +1,19 @@
+# The constructor function is invoked only once during the contract's deployment and never again. 
+## It is generally used for setting up initial contract values.
+
+Solidity provides a constructor declaration inside the smart contract.
+
+Is not a required function, defined with the constructor keyword.
+
+This executes after contract creation, where it is possible to run contract initialization code.
+
+This can be set to internal or public.
+
+##The process that happens just before constructor runs:- 
+
+State variable are set to their indiacated value when you perform initialization inline. If not, their values sets to zero.
+			Once the constructor executes, the code moves to the blockchain.
+
+A default constructor is created by the compiler if there is no explicitly defined constructor.
+
+## We can pass an argument to our constructor!
