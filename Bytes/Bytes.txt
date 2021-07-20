@@ -1,0 +1,14 @@
+# We can create two types of byte arrays in Solidity: 
+
+##fixed-size and dynamically-sized.
+
+We can create byte sized arrays reserving anywhere from 1 to 32 bytes by adding the number as a suffix to *bytes*.
+
+You can see that eacWhenever we go up 1 byte we can store two new hexadecimal characters. 
+
+Each hexadecimal character can be represented in 4 bits.
+
+## 4 bits together are called a nibble!
+## That means each hexadecimal character can be represented by 1 nibble. 
+## It also means two nibbles makes a byte!
+
