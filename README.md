@@ -54,9 +54,21 @@ Which would happen when someone tried to interact with a contract on the blockch
 The exception would occur when a miner tries to validate the transaction. Unless the exception is caught, the transaction will fail and the miner will consume all the gas. 
 
 ## Basic Data Types:-
-### Bytes
-### Enum
+
 ### Sate Variable
-### Signed Integers
-### String Literals
 ### Unsigned Integers
+### Signed Integers
+### Bytes
+### String Literals
+### Enum
+
+## Solidity Functions:-
+
+### Arguments
+### Increment
+### Returning values
+
+### Pure Function
+### Overloading Functions
+
+
