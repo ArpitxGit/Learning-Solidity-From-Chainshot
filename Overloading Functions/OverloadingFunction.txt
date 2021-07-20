@@ -1,0 +1,5 @@
+# Function Overloading occurs when several functions in a contract have the same name but different arguments . It affects inherited functions as well.
+
+##The external interface also contains overloaded functions.
+##When two functions set to external visibility have different solidity types( but the same external types ), an error occurs.
+
