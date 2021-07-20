@@ -12,3 +12,5 @@ Each hexadecimal character can be represented in 4 bits.
 ## That means each hexadecimal character can be represented by 1 nibble. 
 ## It also means two nibbles makes a byte!
 
+### byte is an alias for bytes1
+
