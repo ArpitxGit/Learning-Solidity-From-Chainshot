@@ -1,0 +1,12 @@
+# Returning values in Soldiity is only useful for internal functions and blockchain queries.
+
+Adding the *view* keyword to the function signature guarantees it will not modify state variables.
+
+You can think of view functions as read-only; they can read the state of the contract but they cannot modify it.
+
+The returns declaration not only helps the compiler check for compile-time errors in our code, it also is how it generates the ABI. 
+
+This helps external programs communicate with our Solidity contract! 
+
+We will learn more about returning values by implementing.
+
