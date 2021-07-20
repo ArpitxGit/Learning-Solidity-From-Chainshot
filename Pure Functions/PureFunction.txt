@@ -1,0 +1,4 @@
+# Occasionally there is the necessity for Solidity functions that neither read from nor write to state. These functions can be labeled as pure.
+
+## If we tried attempted to modify state in a pure function the compiler would throw an error along the lines of "Function declared as pure, but this expression (potentially) modifies the state".
+
