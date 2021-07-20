@@ -1,0 +1,5 @@
+# The function syntax for Solidity looks quite familiar, coming from JavaScript!
+
+External visibility is quite similar to the public visibility for functions. External is better than public if you know that you are only calling the function externally (outside the EVM). Public visibility requires more gas because it can be called externally and internally, which complicates the assembly code.
+
+We will learn more about functions by implementing.
