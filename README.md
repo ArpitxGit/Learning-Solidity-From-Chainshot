@@ -53,10 +53,10 @@ This means that the compiler was unable to generate *bytecode* from the program,
 Which would happen when someone tried to interact with a contract on the blockchain in some expected way. 
 The exception would occur when a miner tries to validate the transaction. Unless the exception is caught, the transaction will fail and the miner will consume all the gas. 
 
-# Basic Data Types:-
-## Bytes
-## Enum
-## Sate Variable
-## Signed Integers
-## String Literals
-## Unsigned Integers
+## Basic Data Types:-
+### Bytes
+### Enum
+### Sate Variable
+### Signed Integers
+### String Literals
+### Unsigned Integers
